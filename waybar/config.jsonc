@@ -1,0 +1,35 @@
+{
+    "spacing": 4,
+    "modules-left": [
+	    "river/tags"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "battery"
+    ],
+    "river/tags": {
+        "hide-vacant": true,
+    },
+    "clock": {
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format": "{:%d/%m/%Y %H:%M}"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": " {signalStrength}%",
+        "format-disconnected": "Desconectado ⚠",
+        "format-alt": "{essid}"
+    }
+}

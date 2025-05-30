@@ -1,0 +1,26 @@
+* {
+    font-family: "Iosevka Nerd Font Mono", monospace;
+    margin: 0px;
+    padding: 0px;
+  }
+
+window#waybar {
+    background: #2B3339;
+    color: #F6F5F4;
+}
+
+#tags button {
+    color: #F6F5F4;
+    margin: 3px;
+    border-radius: 0px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+#tags button.focused {
+    border-bottom: 2px solid #A7C080;
+}
+
+#clock, #network {
+    padding: 0px 5px;
+}
