@@ -19,7 +19,7 @@ return {
         "mason-org/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "bashls", "html", "cssls", "ts_ls" }
+                ensure_installed = { "lua_ls", "bashls", "html", "cssls" }
             })
         end
     },
@@ -39,9 +39,6 @@ return {
                 capabilities = capabilities
             })
             lspconfig.cssls.setup({
-                capabilities = capabilities
-            })
-            lspconfig.ts_ls.setup({
                 capabilities = capabilities
             })
         end

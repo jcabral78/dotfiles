@@ -1,0 +1,44 @@
+{
+    "imagens": false,
+
+    "musica": [
+        {
+            "nome": "Bulls on Parade",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/0tZ3mElWcr74OOhKEiNz1x?si=cc34f903bd84470a",
+            "url-youtube": "https://youtu.be/DvdeE6KzrTc?si=BXmVAlEFx7ti1Bq1"
+        },
+
+        {
+            "nome": "Even Flow",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/6QewNVIDKdSl8Y3ycuHIei?si=98872d08e7334dac",
+            "url-youtube": "https://youtu.be/q90DPCu_-zk?si=oOM5VdMKpssHblT2"
+        },
+
+        {
+            "nome": "November Rain",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/3YRCqOhFifThpSRFJ1VWFM?si=609f7b06b0cc4d16",
+            "url-youtube": "https://youtu.be/WjFG03kS7nQ?si=wb44iHWnnmqFNlYD"
+        },
+
+        {
+            "nome": "Blank",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/3X6cqWlADU8SVxAhfTIjYT?si=25b26e434e2c4448",
+            "url-youtube": "https://youtu.be/QvjamufXXng?si=--008nZwrDUFdlub"
+        }
+    ],
+
+    "album": [
+        {
+            "nome": "System of a Down",
+            "url": "https://open.spotify.com/intl-pt/album/4T0mAffZnPKUW2QTcSX5zG?si=EjKTMBI6SVSkTqjq2_NU4g"
+        },
+        {
+            "nome": "Toxicity",
+            "url": "https://open.spotify.com/intl-pt/album/6jWde94ln40epKIQCd8XUh"
+        },
+        {
+            "nome": "Steal This Album!",
+            "url": "https://open.spotify.com/intl-pt/album/6lA1sGw7eCv27bcpd5E0wT"
+        }
+    ]
+}

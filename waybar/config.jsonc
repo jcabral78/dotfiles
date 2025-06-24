@@ -28,7 +28,7 @@
         "format-icons": ["", "", "", "", ""]
     },
     "network": {
-        "format-wifi": " {signalStrength}%",
+        "format-wifi": "  {signalStrength}%",
         "format-disconnected": "Desconectado ⚠",
         "format-alt": "{essid}"
     }

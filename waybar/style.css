@@ -1,26 +1,45 @@
 * {
-    font-family: "Iosevka Nerd Font Mono", monospace;
+    font-family: "Iosevka Nerd Font", monospace;
     margin: 0px;
     padding: 0px;
   }
 
 window#waybar {
-    background: #2B3339;
-    color: #F6F5F4;
+    background: transparent;
+    color: #eceff4;
+}
+
+#tags{
+    margin: 3px;
+    background-color: #2e3440;
+    border-radius: 5px;
 }
 
 #tags button {
-    color: #F6F5F4;
     margin: 3px;
-    border-radius: 0px;
+    color: #eceff4;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
 
 #tags button.focused {
-    border-bottom: 2px solid #A7C080;
+    border-bottom: 2px solid #5e81ac;
 }
 
-#clock, #network {
+#clock, #network, #battery {
     padding: 0px 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#clock {
+    background-color: #5e81ac;
+}
+
+#network {
+    background-color: #bf616a;
+}
+
+#battery {
+    background-color: #a3be8c;
 }

@@ -8,7 +8,7 @@ riverctl keyboard-layout br
 
 # Executar ao iniciar
 riverctl spawn waybar
-riverctl spawn "swaybg -i ~/Imagens/wallpaper.png"
+riverctl spawn "swaybg -i ~/.config/river/wallpaper.png"
 
 # Binds
     # Aplicativos
@@ -73,4 +73,4 @@ riverctl rule-add -app-id "bar" csd
 # Set the default layout generator to be rivertile and start it.
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
-rivertile -view-padding 6 -outer-padding 6 &
+rivertile -view-padding 3 -outer-padding 3 &
