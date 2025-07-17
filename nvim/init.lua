@@ -1,6 +1,6 @@
 -- Importando de outros arquivos
-require("config.lazy")
 require("config.remap")
+require("config.lazy")
 
 -- Configuração tab
 vim.opt.expandtab = true

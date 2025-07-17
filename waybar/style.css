@@ -1,45 +1,32 @@
+@import "./rose-pine.css";
+
 * {
     font-family: "Iosevka Nerd Font", monospace;
     margin: 0px;
     padding: 0px;
-  }
-
-window#waybar {
-    background: transparent;
-    color: #eceff4;
+    background-color: transparent;
 }
 
-#tags{
+#tags {
     margin: 3px;
-    background-color: #2e3440;
+    background-color: @surface;
     border-radius: 5px;
+    border: 1px solid @gold;
 }
 
 #tags button {
     margin: 3px;
-    color: #eceff4;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+    color: @text;
 }
 
 #tags button.focused {
-    border-bottom: 2px solid #5e81ac;
+    color: @gold;
 }
 
-#clock, #network, #battery {
+#clock, #network, #battery, #custom-cmus {
     padding: 0px 5px;
-    margin: 3px;
+    border: 1px solid @gold;
     border-radius: 5px;
-}
-
-#clock {
-    background-color: #5e81ac;
-}
-
-#network {
-    background-color: #bf616a;
-}
-
-#battery {
-    background-color: #a3be8c;
+    background-color: @surface;
+    color: @text;
 }

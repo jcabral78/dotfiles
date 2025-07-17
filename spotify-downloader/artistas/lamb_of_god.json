@@ -1,0 +1,15 @@
+{
+    "musica": [
+        {
+            "nome": "Redneck",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/1WZVnw0YWc7OLkVijEargx?si=b4b9b642b10f419f",
+            "url-youtube": "https://youtu.be/w6J8wVYEhfE?si=4MhSNYJ0mX6ldMUN"
+        }
+    ],
+    "album": [
+        {
+            "nome": "Ashes of the Wake",
+            "url": "https://open.spotify.com/intl-pt/album/7CwtVHoJ9cl6YEQjsSeEca?si=7bpJMUF-SgaArMO_yyt96w"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "musica": [
+        {
+            "nome": "Bulls on Parade",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/0tZ3mElWcr74OOhKEiNz1x?si=cc34f903bd84470a",
+            "url-youtube": "https://youtu.be/DvdeE6KzrTc?si=BXmVAlEFx7ti1Bq1"
+        },
+
+        {
+            "nome": "Sleep Now In The Fire",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/1MQTmpYOZ6fcMQc56Hdo7T?si=a71bdbb218b644c1",
+            "url-youtube": "https://youtu.be/JbyaPmv5Gc0?si=U_MSga_sHIdbLtQE"
+        }
+    ],
+
+    "importar": {
+        "arquivo": [
+            "acid_bath.json"
+        ]
+    }
+}

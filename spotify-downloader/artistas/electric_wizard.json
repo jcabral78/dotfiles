@@ -1,0 +1,20 @@
+{
+    "musica": [
+        {
+            "nome": "Funeralopolis",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/6rQG8QH1rGoCOeGHdrnYhb?si=0f4c9ae4c4ad4263",
+            "url-youtube": "https://youtu.be/FSySb9yGhdA?si=bre-56lZd74eHYUa"
+        }
+    ],
+
+    "album": [
+        {
+            "nome": "Come My Fanatics",
+            "url": "https://open.spotify.com/intl-pt/album/3Pru4Gre7wDLtshs539Leu?si=PNO_687KT1C21iMpDVd9oA"
+        },
+        {
+            "nome": "Dopethrone",
+            "url": "https://open.spotify.com/intl-pt/album/2ntG8GB5e2RuOYkSmBo1ij?si=k-m2WqJkTrqCyGWXLH8-tw"
+        }
+    ]
+}

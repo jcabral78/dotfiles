@@ -1,0 +1,41 @@
+#!/bin/bash
+
+calcular_tempo() {
+    segundos=$1
+    minutos=$(($segundos / 60))
+    segundos_restantes=$(($segundos % 60))
+
+    if [[ ${#segundos_restantes} -eq 1 ]]; then
+        segundos_restantes="0$segundos_restantes"
+    fi
+    
+    echo "$minutos:$segundos_restantes"
+}
+
+posicao_alt=""
+
+while true; do
+    titulo=$(cmus-remote -Q | grep "tag title")
+    artista=$(cmus-remote -Q | grep "tag artist")
+    nome_full="${titulo:10} - ${artista:11}"
+
+    segundos_duracao=$(cmus-remote -Q | grep "duration")
+    segundos_duracao=${segundos_duracao:9}
+    
+    segundos_posicao=$(cmus-remote -Q | grep "position")
+    segundos_posicao=${segundos_posicao:9}
+
+    duracao=$(calcular_tempo $segundos_duracao)
+    posicao=$(calcular_tempo $segundos_posicao)
+
+    output="$nome_full ($posicao/$duracao)"
+
+    if [[ $titulo = "" ]]; then
+        output=""
+    fi
+
+    if [ $(posicao) != $(posicao_alt) ]; then
+        echo $output
+        posicao_alt=$posicao
+   fi
+done

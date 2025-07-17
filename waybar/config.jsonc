@@ -1,7 +1,8 @@
 {
     "spacing": 4,
     "modules-left": [
-	    "river/tags"
+	    "river/tags",
+        "custom/cmus"
     ],
     "modules-center": [
         "clock"
@@ -11,25 +12,29 @@
         "battery"
     ],
     "river/tags": {
-        "hide-vacant": true,
+        "num-tags": 10,
+        "disable-click": true,
+        "hide-vacant": true
     },
     "clock": {
-        "tooltip-format": "<tt><small>{calendar}</small></tt>",
-        "format": "{:%d/%m/%Y %H:%M}"
+        "format": "{:%d - %H:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>"
     },
     "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
+        "format": "  {capacity}%",
         "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "tooltip": false
     },
     "network": {
         "format-wifi": "  {signalStrength}%",
-        "format-disconnected": "Desconectado ⚠",
-        "format-alt": "{essid}"
+        "format-disconnected": "⚠ Desconectado",
+        "format-alt": "SSID: {essid}",
+        "tooltip": false
+    },
+    "custom/cmus": {
+        "format": "🎵 {}",
+        "interval": 0,
+        "exec": "~/.config/waybar/modules/cmus",
+        "tooltip": false
     }
 }

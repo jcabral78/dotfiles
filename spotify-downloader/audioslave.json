@@ -1,0 +1,22 @@
+{
+    "album": [
+        {
+            "nome": "Audioslave",
+            "url": "https://open.spotify.com/intl-pt/album/293aYSIVNjjmkAwupnlxRd?si=DK1qajDfS3KihvzDpRKicg"
+        },
+        {
+            "nome": "Out of Exile",
+            "url": "https://open.spotify.com/intl-pt/album/0HQhToIjonHnJRRPN4jeJU?si=JKOorI4CQZKZKKnXeQxiDQ"
+        },
+        {
+            "nome": "Revelations",
+            "url": "https://open.spotify.com/intl-pt/album/6Ys6uRTMti54CH8VEo2xEt?si=dB1Vq_jsRDqFxAGyaU0TZw"
+        }
+    ],
+
+    "importar": {
+        "arquivo": [
+            "rage_against_the_machine.json"
+        ]
+    }
+}

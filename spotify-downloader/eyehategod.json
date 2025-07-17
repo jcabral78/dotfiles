@@ -1,0 +1,25 @@
+{
+    "musica": [
+        {
+            "nome": "Blank",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/3X6cqWlADU8SVxAhfTIjYT?si=25b26e434e2c4448",
+            "url-youtube": "https://youtu.be/QvjamufXXng?si=--008nZwrDUFdlub"
+        },
+        {
+            "nome": "Shoplift",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/52sXH5nG72aQPr6JhBfZlH?si=e87ff9710bc04dae",
+            "url-youtube": "https://youtu.be/VU4ZW2iSFrw?si=sld3VjpkOWKMkiXw"
+        }
+    ],
+
+    "album": [
+        {
+            "nome": "Dopesick",
+            "url": "https://open.spotify.com/intl-pt/album/6hQfZWwzteEX6o7M5DdKB6?si=_k6U_396TwexwEFg7gtjAQ"
+        },
+        {
+            "nome": "Confederacy of Ruined Lives",
+            "url": "https://open.spotify.com/intl-pt/album/0u1RkMCzzhZS7mNngAKDzX?si=C1uaSeG-RHCV-h48-u6aBA"
+        }
+    ]
+}

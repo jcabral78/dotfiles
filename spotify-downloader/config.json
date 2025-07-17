@@ -1,12 +1,8 @@
 {
-    "imagens": false,
+    "navegador": "firefox",
+    "imagens": true,
 
     "musica": [
-        {
-            "nome": "Bulls on Parade",
-            "url-spotify": "https://open.spotify.com/intl-pt/track/0tZ3mElWcr74OOhKEiNz1x?si=cc34f903bd84470a",
-            "url-youtube": "https://youtu.be/DvdeE6KzrTc?si=BXmVAlEFx7ti1Bq1"
-        },
 
         {
             "nome": "Even Flow",
@@ -21,24 +17,24 @@
         },
 
         {
-            "nome": "Blank",
-            "url-spotify": "https://open.spotify.com/intl-pt/track/3X6cqWlADU8SVxAhfTIjYT?si=25b26e434e2c4448",
-            "url-youtube": "https://youtu.be/QvjamufXXng?si=--008nZwrDUFdlub"
+            "nome": "Learn to Fly",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/5OQsiBsky2k2kDKy2bX2eT?si=ee47d7d3178f4513",
+            "url-youtube": "https://youtu.be/HJMLLKgknvk?si=8pASYUhkHCMwCuWZ"
+        },
+
+        {
+            "nome": "Live and Let Die",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/0rFWuqFgHAfuzE8uSB9TWR?si=78d0f334655b462d"
         }
     ],
+    "importar": {
+        "arquivo": [
+            "audioslave.json",
+            "eyehategod.json"
+        ],
 
-    "album": [
-        {
-            "nome": "System of a Down",
-            "url": "https://open.spotify.com/intl-pt/album/4T0mAffZnPKUW2QTcSX5zG?si=EjKTMBI6SVSkTqjq2_NU4g"
-        },
-        {
-            "nome": "Toxicity",
-            "url": "https://open.spotify.com/intl-pt/album/6jWde94ln40epKIQCd8XUh"
-        },
-        {
-            "nome": "Steal This Album!",
-            "url": "https://open.spotify.com/intl-pt/album/6lA1sGw7eCv27bcpd5E0wT"
-        }
-    ]
+        "diretorio": [
+            "artistas"
+        ]
+    }
 }

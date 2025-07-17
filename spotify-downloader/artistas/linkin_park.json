@@ -1,0 +1,79 @@
+{
+    "musica": [
+        {
+            "nome": "One Step Closer",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/4bYLTrlcqctyHck3fjhMgW?si=26b4fe7ab7734c36",
+            "url-youtube": "https://youtu.be/sKtl7-_6AjE?si=OcaN0d_rqzgZJot0"
+        },
+
+        {
+            "nome": "With You",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/1Q9QN6dHEDeUegsySY012f?si=e6dda8d874e341b8",
+            "url-youtube": "https://youtu.be/YyahxJAYYfY?si=eBUeCayZ1Vzwd1DK"
+        },
+
+        {
+            "nome": "Points of Authority",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/214LJVTqrkUOGemWDGHJpr?si=01e2015d45914f2f",
+            "url-youtube": "https://youtu.be/yoCD5wZEgo4?si=pv6MUNznV_o7nyEc"
+        },
+
+        {
+            "nome": "By Myself",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/4SJoEhpI6C61wtUfxSHMGc?si=a14b3be980754ea1",
+            "url-youtube": "https://youtu.be/MefPC4SFMQw?si=pKyIibaUVZszKbB3"
+        },
+
+        {
+            "nome": "A Place for My Head",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/1B8WdDScvobpFsZLfdmIE1?si=e30a62cdb3a34a7c",
+            "url-youtube": "https://youtu.be/8L52g0Nrjco?si=XyCM7C1464ytaLrZ"
+        },
+
+        {
+            "nome": "Forgotten",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/3JAu2BH8sSI46rJGzQerb6?si=2831492b908e415e",
+            "url-youtube": "https://youtu.be/RntZL4VpVus?si=k0QJuQCwPW9QZZne"
+        },
+
+        {
+            "nome": "My December",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/0fxGA5lxrdYNYoE7yJxTNZ?si=1f17b7a481f74756"
+        },
+
+        {
+            "nome": "High Voltage",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/7GVqIMb6OdMY5mG7fUrtOq?si=8d6c15cd255346f8"
+        },
+
+        {
+            "nome": "Don't Stay",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/6HZdbb05lEXLvcmee3ZXO2?si=a8f61ef22a27400a",
+            "url-youtube": "https://youtu.be/qq1UEeS1a7c?si=6jH47OnhJPYQFHwQ"
+        },
+
+        {
+            "nome": "Hit the Floor",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/3R9NKZ4jmxNjOFihSF5s7f?si=8c95c7dcab3a4f18",
+            "url-youtube": "https://youtu.be/iYUK2-AMHlg?si=0Yb7M28uYl-LE9oM"
+        },
+
+        {
+            "nome": "Figure.09",
+            "url-spotify": "https://open.spotify.com/intl-pt/track/2DrMcGNKEY0FZqjMovGaCm?si=7cd40a71d49d41db",
+            "url-youtube": "https://youtu.be/6dEAeCHQrBs?si=FzPsq8ZL9V9LuZQn"
+        }
+    ],
+
+    "album": [
+        {
+            "nome": "Hybrid Theory",
+            "url": "https://open.spotify.com/intl-pt/album/6PFPjumGRpZnBzqnDci6qJ?si=Bfg_iDj7RFKDGtsdhk40WQ"
+        },
+
+        {
+            "nome": "Meteora",
+            "url": "https://open.spotify.com/intl-pt/album/4Gfnly5CzMJQqkUFfoHaP3?si=p91fH8hlQsesoDadghkwhQ"
+        }
+    ]
+}

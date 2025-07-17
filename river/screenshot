@@ -1,0 +1,4 @@
+#!/bin/bash
+
+i=$(ls ~/Imagens/Screenshots/ | wc -l)
+grim -g "$(slurp)" Imagens/Screenshots/screenshot"$i".png
